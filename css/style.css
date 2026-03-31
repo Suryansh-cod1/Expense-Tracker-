@@ -1,0 +1,22 @@
+body { padding-top: 60px; background-color: #f8f9fa; }
+
+.card { border-radius: 12px; }
+
+.navbar-brand { font-size: 1.3rem; letter-spacing: 0.5px; }
+
+table th { font-size: 0.88rem; }
+table td { font-size: 0.9rem; vertical-align: middle; }
+
+.progress { border-radius: 10px; }
+.progress-bar { border-radius: 10px; transition: width 0.5s ease; }
+
+.badge { font-size: 0.78rem; padding: 5px 10px; }
+
+.card-header { font-weight: 600; font-size: 0.95rem; }
+
+@media (max-width: 768px) {
+    .card-body canvas { max-height: 220px; }
+    h3.fw-bold { font-size: 1.5rem; }
+}
+
+tr:hover { background-color: #f1f3f5 !important; cursor: default; }
